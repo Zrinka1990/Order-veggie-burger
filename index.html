@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+
+        <h1>Order Vegan Burgers</h1>
+
+        <div id="user-data">
+            <form id="order-form" method="post" action="data/orderSubmit.json">
+                <label>Phone</label>
+                <br />
+                <input name="phone" type="text" />
+                <br />
+                <label>Email</label>
+                <br />
+                <input name="email" type="text" />
+                <br />
+                <label>Address</label>
+                <br />
+                <input name="address" type="text" />
+                <br />
+                <label>Soup</label>
+                <br />
+                <input name="wantsSoup" id="soup-checkbox" type="checkbox" />
+                <br />
+                <select name="soups" id="soups">
+                    <option>Onioun soup</option>
+                    <option>Mushroom soup</option>
+                    <option>Mixed vegetables soup</option>
+                </select>
+                <br />
+                <button class="submit-order">Submit</button>
+            </form>
+            <div id="feedback-message"></div>
+        </div>
+
+        <div id="order-container">
+            $ 0
+        </div>
+
+        <div id="container">
+            <br style="clear: left;"/>
+        </div>
+
+    </body>
+</html>

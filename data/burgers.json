@@ -1,0 +1,41 @@
+{
+    "burgers": [
+        {
+            "id": 0,
+            "name": "Truffle Burger",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 7,
+            "energy": 495
+        }, {
+            "id": 1,
+            "name": "Grilled BBQ Seitan",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 7,
+            "energy": 485
+        }, {
+            "id": 2,
+            "name": "Smoked Seitan",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 7,
+            "energy": 480
+        }, {
+            "id": 3,
+            "name": "Hot falafel",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 7,
+            "energy": 510
+        }, {
+            "id": 4,
+            "name": "Tofu & tomato burger",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 7,
+            "energy": 490
+        }, {
+            "id": 5,
+            "name": "Soy and grilled veggies",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "price": 7,
+            "energy": 515
+        }
+    ]
+}

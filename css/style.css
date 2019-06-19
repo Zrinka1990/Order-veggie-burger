@@ -1,0 +1,117 @@
+body {
+    background-color: #EEE;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-style: oblique;
+  font-size: 40px;
+  color: blue;
+}
+
+button {
+  cursor: pointer;;
+}
+
+#container {
+    background-color: #8AAAE5;
+    padding: 12px;
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #order-container {
+    width: 100%;
+    background-color: #8AAAE5;
+    color: #FFF;
+    padding: 12px;
+    font-size: 30px;
+  }
+  
+  #user-data, #order-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  #soups {
+    display: none;
+  }
+
+  .burger {
+    width: 280px;
+    background-color: #EEE;
+    padding: 8px;
+    float: left;
+    margin: 4px;
+  }
+  
+  .burger img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  .burger .name {
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .burger .description {
+    text-align: justify;
+  }
+
+  .burger .price {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: blue;
+  }
+
+  .burger .energy-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+  }
+  
+  .burger .energy {
+    display: none;
+  }
+
+  .burger .buttons, .energy-eontainer {
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .burger-add, .burger-remove {
+    width: 50%;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #8AAAE5;
+    color: #FFF;
+    font-size: 18px;
+  }
+
+#order-form .submit-order{
+  width: 50%;
+  border: 1px solid;
+  border-radius: 10px;
+  background: #8AAAE5;
+  color: #FFF;
+  font-size: 18px;
+}
